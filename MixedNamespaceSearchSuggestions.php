@@ -8,10 +8,10 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die();
 }
 
-$GLOBALS['wgExtensionCredits']['other'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'MixedNamespaceSearchSuggestions',
-	'version' => '2014-06-24',
+	'version' => '2015-12-04',
 	'author' => 'Niklas Laxström',
 	'descriptionmsg' => 'mnss-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:MixedNamespaceSearchSuggestions',
@@ -21,8 +21,8 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 $dir = __DIR__;
 require_once "$dir/Resources.php";
 
-$GLOBALS['wgMessagesDirs']['MNSS'] = "$dir/i18n";
+$wgMessagesDirs['MNSS'] = "$dir/i18n";
 
-$GLOBALS['wgHooks']['BeforePageDisplay'][] = function ( OutputPage $out ) {
+$wgHooks['BeforePageDisplay'][] = function ( OutputPage $out ) {
 	$out->addModules( 'ext.mnss.search' );
 };

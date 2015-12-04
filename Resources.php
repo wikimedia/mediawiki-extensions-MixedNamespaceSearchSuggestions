@@ -4,8 +4,6 @@
  * @license MIT
  */
 
-global $wgResourceModules;
-
 $resourcePaths = array(
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'MixedNamespaceSearchSuggestions'
