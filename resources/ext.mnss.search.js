@@ -4,7 +4,6 @@
  */
 
 ( function ( mw, $ ) {
-	'use strict';
 
 	// Compute form data for search suggestions functionality.
 	function computeResultRenderCache( context ) {
