@@ -4,16 +4,16 @@
  * @license MIT
  */
 
-$resourcePaths = array(
+$resourcePaths = [
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'MixedNamespaceSearchSuggestions'
-);
+];
 
-$wgResourceModules['ext.mnss.search'] = array(
+$wgResourceModules['ext.mnss.search'] = [
 	'styles' => 'resources/ext.mnss.search.less',
 	'scripts' => 'resources/ext.mnss.search.js',
-	'dependencies' => array(
+	'dependencies' => [
 		'mediawiki.searchSuggest',
 		'mediawiki.Title',
-	),
-) + $resourcePaths;
+	],
+] + $resourcePaths;

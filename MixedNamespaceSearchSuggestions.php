@@ -8,7 +8,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die();
 }
 
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'MixedNamespaceSearchSuggestions',
 	'version' => '2015-12-04',
@@ -16,7 +16,7 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'mnss-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:MixedNamespaceSearchSuggestions',
 	'license-name' => 'MIT',
-);
+];
 
 $dir = __DIR__;
 require_once "$dir/Resources.php";
