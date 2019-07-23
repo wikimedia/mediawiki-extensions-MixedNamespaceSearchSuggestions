@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Navhy"
 		]
 	},
-	"mnss-desc": "Inclúe suxestións de tódolos espazos de nomes de contido no cadro de busca, amosando de que espazo provén cada unha"
+	"mnss-desc": "Inclúe suxestións de tódolos espazos de nomes de contido no cadro de procura, amosando de que espazo provén cada unha"
 }
