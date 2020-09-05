@@ -65,7 +65,7 @@
 						namespace: mw.config.get( 'wgContentNamespaces' ).join( '|' ),
 						suggest: ''
 					} ).done( function ( data ) {
-						$el.suggestions( 'suggestions', data[1] );
+						$el.suggestions( 'suggestions', data[ 1 ] );
 					} ) );
 				}
 			},
