@@ -27,7 +27,8 @@
 			"dependencies": [
 				"mediawiki.searchSuggest",
 				"mediawiki.Title"
-			]
+			],
+			"targets": [ "desktop", "mobile" ]
 		}
 	},
 	"ResourceFileModulePaths": {
