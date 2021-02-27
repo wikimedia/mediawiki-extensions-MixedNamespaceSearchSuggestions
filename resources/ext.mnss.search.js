@@ -53,6 +53,11 @@
 	$( document ).ready( function () {
 		var $searchInput = $( '#searchInput' );
 
+		/* Force default profile to avoid showing a long list of namespaces */
+		$searchInput.append(
+			$( '<input>' ).attr( { type: 'hidden', name: 'profile', value: 'default' } )
+		);
+
 		$searchInput.suggestions( {
 			fetch: function ( query ) {
 				var $el;
