@@ -50,7 +50,7 @@
 			);
 	}
 
-	$( document ).ready( function () {
+	$( function () {
 		var $searchInput = $( '#searchInput' );
 
 		/* Force default profile to avoid showing a long list of namespaces */
