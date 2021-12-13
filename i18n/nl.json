@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Esketti"
+			"Esketti",
+			"McDutchie"
 		]
 	},
-	"mnss-desc": "Bevat suggesties van alle inhoud op alle naamruimten in het zoekvak tonen van die naamruimte elke suggestie is uit"
+	"mnss-desc": "Laat suggesties van alle inhoudsnaamruimten zien in het zoekvak. Voor iedere suggestie wordt getoond uit welke naamruimte deze afkomstig is."
 }
