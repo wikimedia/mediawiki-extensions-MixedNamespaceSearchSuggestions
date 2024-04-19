@@ -1,4 +1,6 @@
 /**
+ * @param mw
+ * @param $
  * @author Niklas Laxström
  * @license MIT
  */
